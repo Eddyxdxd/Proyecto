@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Revisar{
 	
-	public static void revisaRaza(String raza) throws RazaNotFound{
+	public void revisaRaza(String raza) throws RazaNotFound{
 		List<String> razas = new ArrayList<>();
     	razas.add("Snauzer");
     	razas.add("Basenji");
